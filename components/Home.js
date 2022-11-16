@@ -37,7 +37,7 @@ function Home() {
   // Movies list
   useEffect(() => {
     console.log('ok')
-    fetch('http://localhost:3000/movies')
+    fetch('https://mymoviz-backend-sigma.vercel.app/movies')
     .then(response => response.json())
     .then(data => {
       const formatedData = []
